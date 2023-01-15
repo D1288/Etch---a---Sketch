@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.squares{
+    width: 70px;
+    height: 70px;
+    outline: 1px solid black;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0;
+    padding: 0;
+}
+
+.outercontainer {
+    display: flex;
+
+    justify-content: center;
+}
